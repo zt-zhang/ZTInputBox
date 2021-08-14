@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCA71C7926C650950037FA1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA71C7826C650950037FA1A /* AppDelegate.swift */; };
+		BCA71C7D26C650950037FA1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA71C7C26C650950037FA1A /* ViewController.swift */; };
+		BCA71C8226C650990037FA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA71C8126C650990037FA1A /* Assets.xcassets */; };
+		BCA71C8526C650990037FA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA71C8326C650990037FA1A /* LaunchScreen.storyboard */; };
+		BCA71C9826C7982A0037FA1A /* ZTChooseInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA71C8F26C7982A0037FA1A /* ZTChooseInputView.swift */; };
+		BCA71C9926C7982A0037FA1A /* ZTLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA71C9026C7982A0037FA1A /* ZTLabel.swift */; };
+		BCA71C9A26C7982A0037FA1A /* ZTChooseTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA71C9126C7982A0037FA1A /* ZTChooseTextView.swift */; };
+		BCA71C9B26C7982A0037FA1A /* ZTUnderlineInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA71C9226C7982A0037FA1A /* ZTUnderlineInputView.swift */; };
+		BCA71C9C26C7982A0037FA1A /* ZTUnderlineTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA71C9326C7982A0037FA1A /* ZTUnderlineTextView.swift */; };
+		BCA71C9D26C7982A0037FA1A /* ZTInputBoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA71C9426C7982A0037FA1A /* ZTInputBoxModel.swift */; };
+		BCA71C9E26C7982A0037FA1A /* RxUITextFieldDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA71C9626C7982A0037FA1A /* RxUITextFieldDelegateProxy.swift */; };
+		BCA71C9F26C7982A0037FA1A /* ZTInputErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA71C9726C7982A0037FA1A /* ZTInputErrorView.swift */; };
+		BCA71CA126C7A5BD0037FA1A /* ic_scan.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA71CA026C7A5BD0037FA1A /* ic_scan.png */; };
+		F2A70F5DD15AC2BFDF77B4A1 /* Pods_ZTInputBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05074ACF8C74E71B600FCB2B /* Pods_ZTInputBox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05074ACF8C74E71B600FCB2B /* Pods_ZTInputBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTInputBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA71C7526C650950037FA1A /* ZTInputBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTInputBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA71C7826C650950037FA1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCA71C7C26C650950037FA1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCA71C8126C650990037FA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCA71C8426C650990037FA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCA71C8626C650990037FA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA71C8F26C7982A0037FA1A /* ZTChooseInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTChooseInputView.swift; sourceTree = "<group>"; };
+		BCA71C9026C7982A0037FA1A /* ZTLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTLabel.swift; sourceTree = "<group>"; };
+		BCA71C9126C7982A0037FA1A /* ZTChooseTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTChooseTextView.swift; sourceTree = "<group>"; };
+		BCA71C9226C7982A0037FA1A /* ZTUnderlineInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTUnderlineInputView.swift; sourceTree = "<group>"; };
+		BCA71C9326C7982A0037FA1A /* ZTUnderlineTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTUnderlineTextView.swift; sourceTree = "<group>"; };
+		BCA71C9426C7982A0037FA1A /* ZTInputBoxModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTInputBoxModel.swift; sourceTree = "<group>"; };
+		BCA71C9626C7982A0037FA1A /* RxUITextFieldDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxUITextFieldDelegateProxy.swift; sourceTree = "<group>"; };
+		BCA71C9726C7982A0037FA1A /* ZTInputErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTInputErrorView.swift; sourceTree = "<group>"; };
+		BCA71CA026C7A5BD0037FA1A /* ic_scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_scan.png; sourceTree = "<group>"; };
+		C4E19111329A54D82288817F /* Pods-ZTInputBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTInputBox.debug.xcconfig"; path = "Target Support Files/Pods-ZTInputBox/Pods-ZTInputBox.debug.xcconfig"; sourceTree = "<group>"; };
+		DF450565FED86DDAD49A07AB /* Pods-ZTInputBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTInputBox.release.xcconfig"; path = "Target Support Files/Pods-ZTInputBox/Pods-ZTInputBox.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA71C7226C650950037FA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A70F5DD15AC2BFDF77B4A1 /* Pods_ZTInputBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53FA011BFD58842E289232B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05074ACF8C74E71B600FCB2B /* Pods_ZTInputBox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		845D767705592DCBD523104E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4E19111329A54D82288817F /* Pods-ZTInputBox.debug.xcconfig */,
+				DF450565FED86DDAD49A07AB /* Pods-ZTInputBox.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCA71C6C26C650950037FA1A = {
+			isa = PBXGroup;
+			children = (
+				BCA71C7726C650950037FA1A /* ZTInputBox */,
+				BCA71C7626C650950037FA1A /* Products */,
+				845D767705592DCBD523104E /* Pods */,
+				53FA011BFD58842E289232B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA71C7626C650950037FA1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA71C7526C650950037FA1A /* ZTInputBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA71C7726C650950037FA1A /* ZTInputBox */ = {
+			isa = PBXGroup;
+			children = (
+				BCA71C8E26C650D40037FA1A /* Resources */,
+				BCA71C8D26C650CB0037FA1A /* ProjectCode */,
+				BCA71C8C26C650B90037FA1A /* ZTInputBox */,
+			);
+			path = ZTInputBox;
+			sourceTree = "<group>";
+		};
+		BCA71C8C26C650B90037FA1A /* ZTInputBox */ = {
+			isa = PBXGroup;
+			children = (
+				BCA71C9526C7982A0037FA1A /* Rx */,
+				BCA71C8F26C7982A0037FA1A /* ZTChooseInputView.swift */,
+				BCA71C9126C7982A0037FA1A /* ZTChooseTextView.swift */,
+				BCA71C9426C7982A0037FA1A /* ZTInputBoxModel.swift */,
+				BCA71C9726C7982A0037FA1A /* ZTInputErrorView.swift */,
+				BCA71C9026C7982A0037FA1A /* ZTLabel.swift */,
+				BCA71C9226C7982A0037FA1A /* ZTUnderlineInputView.swift */,
+				BCA71C9326C7982A0037FA1A /* ZTUnderlineTextView.swift */,
+			);
+			path = ZTInputBox;
+			sourceTree = "<group>";
+		};
+		BCA71C8D26C650CB0037FA1A /* ProjectCode */ = {
+			isa = PBXGroup;
+			children = (
+				BCA71C7826C650950037FA1A /* AppDelegate.swift */,
+				BCA71C7C26C650950037FA1A /* ViewController.swift */,
+			);
+			path = ProjectCode;
+			sourceTree = "<group>";
+		};
+		BCA71C8E26C650D40037FA1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCA71CA026C7A5BD0037FA1A /* ic_scan.png */,
+				BCA71C8126C650990037FA1A /* Assets.xcassets */,
+				BCA71C8326C650990037FA1A /* LaunchScreen.storyboard */,
+				BCA71C8626C650990037FA1A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BCA71C9526C7982A0037FA1A /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				BCA71C9626C7982A0037FA1A /* RxUITextFieldDelegateProxy.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA71C7426C650950037FA1A /* ZTInputBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA71C8926C650990037FA1A /* Build configuration list for PBXNativeTarget "ZTInputBox" */;
+			buildPhases = (
+				BFA41E4FBC42128088C598AF /* [CP] Check Pods Manifest.lock */,
+				BCA71C7126C650950037FA1A /* Sources */,
+				BCA71C7226C650950037FA1A /* Frameworks */,
+				BCA71C7326C650950037FA1A /* Resources */,
+				A0B4FC6754CCC57F9DA15590 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTInputBox;
+			productName = ZTInputBox;
+			productReference = BCA71C7526C650950037FA1A /* ZTInputBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA71C6D26C650950037FA1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BCA71C7426C650950037FA1A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = BCA71C7026C650950037FA1A /* Build configuration list for PBXProject "ZTInputBox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA71C6C26C650950037FA1A;
+			productRefGroup = BCA71C7626C650950037FA1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA71C7426C650950037FA1A /* ZTInputBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA71C7326C650950037FA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA71C8526C650990037FA1A /* LaunchScreen.storyboard in Resources */,
+				BCA71CA126C7A5BD0037FA1A /* ic_scan.png in Resources */,
+				BCA71C8226C650990037FA1A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0B4FC6754CCC57F9DA15590 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZTInputBox/Pods-ZTInputBox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZTInputBox/Pods-ZTInputBox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZTInputBox/Pods-ZTInputBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA41E4FBC42128088C598AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZTInputBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA71C7126C650950037FA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA71C9F26C7982A0037FA1A /* ZTInputErrorView.swift in Sources */,
+				BCA71C9D26C7982A0037FA1A /* ZTInputBoxModel.swift in Sources */,
+				BCA71C7D26C650950037FA1A /* ViewController.swift in Sources */,
+				BCA71C9826C7982A0037FA1A /* ZTChooseInputView.swift in Sources */,
+				BCA71C9B26C7982A0037FA1A /* ZTUnderlineInputView.swift in Sources */,
+				BCA71C9A26C7982A0037FA1A /* ZTChooseTextView.swift in Sources */,
+				BCA71C9926C7982A0037FA1A /* ZTLabel.swift in Sources */,
+				BCA71C9E26C7982A0037FA1A /* RxUITextFieldDelegateProxy.swift in Sources */,
+				BCA71C7926C650950037FA1A /* AppDelegate.swift in Sources */,
+				BCA71C9C26C7982A0037FA1A /* ZTUnderlineTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCA71C8326C650990037FA1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA71C8426C650990037FA1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA71C8726C650990037FA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCA71C8826C650990037FA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA71C8A26C650990037FA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E19111329A54D82288817F /* Pods-ZTInputBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GC36VLZ5EF;
+				INFOPLIST_FILE = ZTInputBox/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.szmsd.ZTInputBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BCA71C8B26C650990037FA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF450565FED86DDAD49A07AB /* Pods-ZTInputBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GC36VLZ5EF;
+				INFOPLIST_FILE = ZTInputBox/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.szmsd.ZTInputBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA71C7026C650950037FA1A /* Build configuration list for PBXProject "ZTInputBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA71C8726C650990037FA1A /* Debug */,
+				BCA71C8826C650990037FA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA71C8926C650990037FA1A /* Build configuration list for PBXNativeTarget "ZTInputBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA71C8A26C650990037FA1A /* Debug */,
+				BCA71C8B26C650990037FA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA71C6D26C650950037FA1A /* Project object */;
+}

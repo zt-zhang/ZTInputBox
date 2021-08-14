@@ -1,0 +1,55 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.7)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift (from `https://gitee.com/jobs540667209/IQKeyboardManager.git`)
+  - "RxCocoa (from `git@192.168.100.181:zhangtian/rxswift.git`)"
+  - "RxSwift (from `git@192.168.100.181:zhangtian/rxswift.git`)"
+  - "SnapKit (from `git@192.168.100.181:cocoapodslib/snapkit.git`, tag `5.0.1`)"
+
+SPEC REPOS:
+  trunk:
+    - RxRelay
+
+EXTERNAL SOURCES:
+  IQKeyboardManagerSwift:
+    :git: https://gitee.com/jobs540667209/IQKeyboardManager.git
+  RxCocoa:
+    :git: "git@192.168.100.181:zhangtian/rxswift.git"
+  RxSwift:
+    :git: "git@192.168.100.181:zhangtian/rxswift.git"
+  SnapKit:
+    :git: "git@192.168.100.181:cocoapodslib/snapkit.git"
+    :tag: 5.0.1
+
+CHECKOUT OPTIONS:
+  IQKeyboardManagerSwift:
+    :commit: 558ba5c6b1138c8dd9ce52935a59e679afece670
+    :git: https://gitee.com/jobs540667209/IQKeyboardManager.git
+  RxCocoa:
+    :commit: a9e79d9bb8bc4d022191c68a23f8585928ec8f39
+    :git: "git@192.168.100.181:zhangtian/rxswift.git"
+  RxSwift:
+    :commit: a9e79d9bb8bc4d022191c68a23f8585928ec8f39
+    :git: "git@192.168.100.181:zhangtian/rxswift.git"
+  SnapKit:
+    :git: "git@192.168.100.181:cocoapodslib/snapkit.git"
+    :tag: 5.0.1
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 7d651cf47a4fb6a4d721e16ef15ec52cef6d57ce
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: fbd309aec3bf45a0fe441136009962de7c70c5c4
+
+COCOAPODS: 1.10.1
